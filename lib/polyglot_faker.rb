@@ -8,7 +8,5 @@ module PolyglotFaker
   end
 end
 
-if defined?(Faker)
-  Faker.send(:extend, Polyglot::Faker)
-end
 
+Faker.send(:extend, PolyglotFaker) if defined?(Faker)
