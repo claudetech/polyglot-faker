@@ -1,4 +1,4 @@
-Copyright (c) 2014 Daniel Perez
+Copyright (c) 2014 Claude Tech
 
 MIT License
 
