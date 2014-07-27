@@ -1,4 +1,4 @@
-# PolyglotFaker [![Build Status][travis-img]][travis-link]
+# PolyglotFaker [![Build Status][travis-img]][travis-link] [![Gem Version][gem-img]][gem-link]
 
 Gem to simplify [Faker gem](https://github.com/stympy/faker)
 usage with languages using non-ascii characters.
@@ -29,3 +29,5 @@ Faker.with_locale(:en) { Faker::Internet.email }
 
 [travis-img]: https://travis-ci.org/claudetech/polyglot-faker.svg?branch=master
 [travis-link]: https://travis-ci.org/claudetech/polyglot-faker
+[gem-img]: https://badge.fury.io/rb/polyglot_faker.svg
+[gem-link]: http://badge.fury.io/rb/polyglot_faker
